@@ -32,19 +32,18 @@ main{
 .subSection{
     width: 100%;
     height: 400px;
-    margin: 1rem;
+    margin: 2rem;
 }
 
 .miniSection{
     width: 100%;
-    height: 100px;
-    margin: 1rem;
+    height: 200px;
 }
 
 .sectionHeaderText{
     width: 100%;
-    margin-bottom: 3rem;
     color: #0074A8;
+    font-size: 40px;
 }
 
 .sectionSubHeaderText{
@@ -52,8 +51,13 @@ main{
     text-decoration: underline;
 }
 
+.introText{
+    font-size: 30px;
+}
+
 .sectionText{
     font-size: 18px;
+    padding: 1rem;
 }
 
 .rushmoreImage{
@@ -63,5 +67,33 @@ main{
 
 hr {
     border: none;
-    height: 5rem;
+    height: 0.75rem;
+    margin: 1.25rem auto;
+    width: 60%;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.panelHeader{
+    color: white;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.blueBG{
+    background-color: #0074A8;
+    border-radius: 5px;
+}
+
+.leftPanel{
+    margin-left: 2rem;
+}
+
+.rightPanel{
+    margin-right: 2rem;
 }
